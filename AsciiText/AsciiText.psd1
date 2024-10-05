@@ -6,8 +6,9 @@
 # Generated on: 2024-10-05
 #
 @{
-	ModuleVersion = '1.0.0'
-	Description = 'Generates Ascii Text Art'
+    RootModule = 'AsciiText'
+	ModuleVersion = '1.0.4'
+	Description = 'Generates Ascii Text Art. Contains many different fonts. For examples run -> Get-Help Write-AsciiText -Examples'
 	GUID = 'e727ded6-207a-4f91-b4e9-1d30e2514cba'
 	Author = 'Michael Tartaggia'
 	ProcessorArchitecture = 'None'
@@ -15,8 +16,7 @@
 	CmdletsToExport = '*' 
 	VariablesToExport = '*'
 	AliasesToExport = '*'
-	FileList = 'AsciiText.psm1', 'AsciiText.psd1', '3DDiagonal.psf', 'Arrows.psf', 'ASCIINewRoman.psf', 'Avatar.psf', 'Big.psf', 'Caligraphy.psf', 'Chunky.psf', 'Contessa.psf', 'Digital.psf', 'Doom.psf', 'EftiFont.psf', 'EftiRobot,
- Graceful.psf', 'Graffiti.psf', 'Impossible.psf', 'LilDevil.psf', 'Merlin1.psf', 'Modular.psf', 'Ogre.psf', 'Pepper.psf', 'Rectangles.psf', 'SmallShadow.psf', 'Stop.psf'
+	FileList = @('AsciiText.psm1', 'AsciiText.psd1', 'Fonts\3DDiagonal.psf', 'Fonts\Arrows.psf', 'Fonts\ASCIINewRoman.psf', 'Fonts\Avatar.psf', 'Fonts\Big.psf', 'Fonts\Caligraphy.psf', 'Fonts\Chunky.psf', 'Fonts\Contessa.psf', 'Fonts\Digital.psf', 'Fonts\Doom.psf', 'Fonts\EftiFont.psf', 'Fonts\EftiRobot.psf', 'Fonts\Graceful.psf', 'Fonts\Graffiti.psf', 'Fonts\Impossible.psf', 'Fonts\LilDevil.psf', 'Fonts\Merlin1.psf', 'Fonts\Modular.psf', 'Fonts\Ogre.psf', 'Fonts\Pepper.psf', 'Fonts\Rectangles.psf', 'Fonts\SmallShadow.psf', 'Fonts\Stop.psf')
 
 
 PrivateData = @{
@@ -34,7 +34,7 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = '* Inital Release'
+        ReleaseNotes = '* Inital Release + bug fix + typos'
 
 
 
