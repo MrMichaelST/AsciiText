@@ -1,4 +1,4 @@
-﻿function Write-AsciiText{
+function Write-AsciiText{
 <#
 .SYNOPSIS
 
@@ -380,7 +380,7 @@ None.
 
 .OUTPUTS
 
-None.
+[string][]
 
 .EXAMPLE
 
