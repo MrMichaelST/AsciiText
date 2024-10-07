@@ -3,7 +3,7 @@ Powershell script to convert text to ASCII art text. Includes many fonts.
 
 Install from PS Gallery via : 
 
-PC> Install-Module -Name AsciiText
+PS> Install-Module -Name AsciiText
 
 ```
 
