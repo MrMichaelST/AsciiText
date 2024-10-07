@@ -101,14 +101,9 @@ Get AsciiText in [string[]] for later use or save to file instead of displaying 
 PS> $Font = Get-Font -FontName EftiFont
 
 PS> Get-AsciiText -Text "Some text" -Font $Font
- __                                  
-/ _|  _    _ _   _   ||   _      ||  
-\_ \ /o\ |/ \ \ /o\  | ] /o\ \V7 | ] 
-|__/ \_/ L_n_n| \(   L|  \(  /n\ L|  
-                                     
+PS> Out-File -InputObject $Result -FilePath Output.txt
 
-
-Set colours
+ Set colours
 PS> Write-AsciiText -Text "ABCabc123" -ForegroundColor Red -BackgroundColor DarkGreen
 
    _____  ___________________        ___.           ____________ ________  
